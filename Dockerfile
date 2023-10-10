@@ -2,8 +2,8 @@ FROM python:3.9
 
 WORKDIR /app/backend
 
-COPY requirements.txt /app/backend
-RUN pip install -r requirements.txt
+COPY requirement.txt /app/backend
+RUN pip install -r requirement.txt
 
 COPY . /app/backend
 
